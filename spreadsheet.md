@@ -1,5 +1,5 @@
 
-MailApp.sendEmail("6465523666@tmomail.net", "test mail", "hello from erickouassi.com");
+MailApp.sendEmail("64655236XX@tmomail.net", "test mail", "hello from erickouassi.com");
 
 yourEmailHere/ Subject /
 Your Message here
