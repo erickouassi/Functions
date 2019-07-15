@@ -50,3 +50,7 @@ var subject = Your score is " + score
  * COUNTIF function (text)
  
  =COUNTIF(B3:B53,"*")
+ 
+ * Hide Cell
+ 
+ On the Number tab, choose Custom at the bottom and enter three semicolons (;;;) without the parentheses into the Type box.
