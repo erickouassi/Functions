@@ -45,3 +45,8 @@ var subject = Your score is " + score
  * Date in 3 Years 7 months 25 days
  
  =DATEDIF(0,A2,"y")&" years " &DATEDIF(0,A2,"ym")&" months "&DATEDIF(0,A2,"md")&" days"
+ 
+ 
+ * COUNTIF function (text)
+ 
+ =COUNTIF(B3:B53,"*")
