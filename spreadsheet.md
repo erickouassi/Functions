@@ -1,10 +1,10 @@
 
+* Spreadsheet simple email
 MailApp.sendEmail("64655236XX@tmomail.net", "test mail", "hello from erickouassi.com");
 
-yourEmailHere/ Subject /
-Your Message here
 
 
+* Spreadsheet advanced email
 function CustomEmail() {
 var sheet = SpreadsheetApp.getActiveSheet();
 var range = sheet.getRange("A2:C4");
@@ -35,3 +35,6 @@ var subject = Your score is " + score
  MailApp.sendEmail(email2Send, subject, message);
  
  */
+ 
+ * IF statement to display text in cell
+ =IF(D23<0,"Net Income (loss)","Net Income (profit)")
