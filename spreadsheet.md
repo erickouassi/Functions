@@ -38,3 +38,7 @@ var subject = Your score is " + score
  
  * IF statement to display text in cell
  =IF(D23<0,"Net Income (loss)","Net Income (profit)")
+ 
+ * Date in 3 Years 7 months 25 days
+ 
+ =DATEDIF(0,A2,"y")&" years " &DATEDIF(0,A2,"ym")&" months "&DATEDIF(0,A2,"md")&" days"
