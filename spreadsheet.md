@@ -1,8 +1,8 @@
 
 * Spreadsheet simple email
-
+```
 MailApp.sendEmail("64655236XX@tmomail.net", "test mail", "hello from erickouassi.com");
-
+```
 
 
 * Spreadsheet advanced email
