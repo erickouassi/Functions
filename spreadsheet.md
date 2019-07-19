@@ -6,7 +6,7 @@ MailApp.sendEmail("64655236XX@tmomail.net", "test mail", "hello from erickouassi
 
 
 * Spreadsheet advanced email
-
+```
 function CustomEmail() {
 var sheet = SpreadsheetApp.getActiveSheet();
 var range = sheet.getRange("A2:C4");
@@ -19,7 +19,7 @@ var score = row[2];
 MailApp.sendEmail(row[1], "Custom mail", "Hello " + name + ", This is an email report of your score. Your score is " + score);
 }
 }
-
+```
 
 /*
 function CustomEmail() {
@@ -39,18 +39,18 @@ var subject = Your score is " + score
  */
  
  * IF statement to display text in cell
- 
+ ```
  =IF(D23<0,"Net Income (loss)","Net Income (profit)")
- 
+ ```
  * Date in 3 Years 7 months 25 days
- 
+ ```
  =DATEDIF(0,A2,"y")&" years " &DATEDIF(0,A2,"ym")&" months "&DATEDIF(0,A2,"md")&" days"
- 
+ ```
  
  * COUNTIF function (text)
- 
+ ```
  =COUNTIF(B3:B53,"*")
- 
+ ```
  * Hide Cell
  
  On the Number tab, choose Custom at the bottom and enter three semicolons (;;;) without the parentheses into the Type box.
