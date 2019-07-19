@@ -20,7 +20,7 @@ MailApp.sendEmail(row[1], "Custom mail", "Hello " + name + ", This is an email r
 }
 }
 ```
-
+```
 /*
 function CustomEmail() {
 var sheet = SpreadsheetApp.getActiveSheet();
@@ -35,8 +35,8 @@ var message = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
 var subject = Your score is " + score
  
  MailApp.sendEmail(email2Send, subject, message);
- 
  */
+ ```
  
  * IF statement to display text in cell
  ```
