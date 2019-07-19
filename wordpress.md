@@ -1,7 +1,8 @@
-Protect wordpress against malicious URL requests
-This snippet is great for the security to protect wordpress against malicious URL requests. Credit link [here](https://wp-snippet.com/snippets/protect-wordpress-against-malicious-url-requests/)
+Protect wordpress against malicious URL requests<br />
+This snippet is great for the security to protect wordpress against malicious URL requests. <br />
+Credit link [here](https://wp-snippet.com/snippets/protect-wordpress-against-malicious-url-requests/)
 
-Instructions
+Instructions<br />
 Add this to your functions.php file.
 ```
 global $user_ID; if($user_ID) {
