@@ -1,4 +1,4 @@
-Protect wordpress against malicious URL requests<br />
+# Protect wordpress against malicious URL requests<br />
 This snippet is great for the security to protect wordpress against malicious URL requests. <br />
 Credit link [here](https://wp-snippet.com/snippets/protect-wordpress-against-malicious-url-requests/)
 
