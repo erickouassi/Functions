@@ -54,3 +54,52 @@ var subject = Your score is " + score
  * Hide Cell
  
  On the Number tab, choose Custom at the bottom and enter three semicolons (;;;) without the parentheses into the Type box.
+ 
+ * Reminder
+ ```
+ function checkReminder() {
+  // get the spreadsheet object
+  var spreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+  // set the first sheet as active
+  SpreadsheetApp.setActiveSheet(spreadsheet.getSheets()[0]);
+  // fetch this sheet
+  var sheet = spreadsheet.getActiveSheet();
+   
+  // figure out what the last row is
+  var lastRow = sheet.getLastRow();
+ 
+  // the rows are indexed starting at 1, and the first row
+  // is the headers, so start with row 2
+  var startRow = 2;
+ 
+  // grab column 5 (the 'days left' column) 
+  var range = sheet.getRange(2,5,lastRow-startRow+1,1 );
+  var numRows = range.getNumRows();
+  var days_left_values = range.getValues();
+   
+  // Now, grab the reminder name column
+  range = sheet.getRange(2, 1, lastRow-startRow+1, 1);
+  var reminder_info_values = range.getValues();
+   
+  var warning_count = 0;
+  var msg = "";
+   
+  // Loop over the days left values
+  for (var i = 0; i <= numRows - 1; i++) {
+    var days_left = days_left_values[i][0];
+    if(days_left == 7) {
+      // if it's exactly 7, do something with the data.
+      var reminder_name = reminder_info_values[i][0];
+       
+      msg = msg + "Reminder: "+reminder_name+" is due in "+days_left+" days.\n";
+      warning_count++;
+    }
+  }
+   
+  if(warning_count) {
+    MailApp.sendEmail("youremail@yourdomain.com,anotheremail@anotherdomain.com", 
+        "Reminder Spreadsheet Message", msg);
+  }
+   
+};
+ ```
