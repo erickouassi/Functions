@@ -102,4 +102,6 @@ var subject = Your score is " + score
   }
    
 };
+
+// https://www.withoutthesarcasm.com/automating-google-spreadsheets-email-reminders/
  ```
