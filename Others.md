@@ -11,3 +11,12 @@ You can add newline by writing **%0D%0A** in the text of the body.
 <a href="?body=Line1-text%0D%0ALine2-text">Send mail</a>
 
 ````
+
+
+```
+<form action="mailto:hello@erickouassi.com" method="post" enctype="text/plain" >
+FirstName:<input type="text" name="FirstName">
+Email:<input type="text" name="Email">
+<input type="submit" name="submit" value="Submit">
+</form>
+```
