@@ -105,3 +105,8 @@ var subject = Your score is " + score
 
 // https://www.withoutthesarcasm.com/automating-google-spreadsheets-email-reminders/
  ```
+ 
+ * For characters count
+ ```
+ =sum(LEN(B1)+LEN(B2)+LEN(B3)+LEN(B4)+LEN(B5)+LEN(B6)+LEN(B7))
+ ```
