@@ -3,7 +3,7 @@
 ```
 MailApp.sendEmail("64655236XX@tmomail.net", "test mail", "hello from erickouassi.com");
 ```
-
+Note: Each line should be separated with a LF (\n). Lines should not exceed 70 characters.
 
 * Spreadsheet advanced email
 ```
