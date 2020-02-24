@@ -110,3 +110,7 @@ var subject = Your score is " + score
  ```
  =sum(LEN(B1)+LEN(B2)+LEN(B3)+LEN(B4)+LEN(B5)+LEN(B6)+LEN(B7))
  ```
+* QR Code formula
+```
+=if(isblank($A1), "BLANK", image("https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl="&$A1))
+```
