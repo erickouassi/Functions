@@ -114,3 +114,9 @@ var subject = Your score is " + score
 ```
 =if(isblank($A1), "BLANK", image("https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl="&$A1))
 ```
+
+* Select 1 raw for view
+```
+google.spreadsheeet.link/gviz/tq?tqx=out:html&tq=select+*+LIMIT+1+OFFSET+0&gid=0
+
+```
