@@ -120,3 +120,5 @@ var subject = Your score is " + score
 google.spreadsheeet.link/gviz/tq?tqx=out:html&tq=select+*+LIMIT+1+OFFSET+7&gid=0
 
 ```
+* Create a mail merge using Gmail and Google Sheets
+https://github.com/gsuitedevs/solutions/tree/master/mail-merge
