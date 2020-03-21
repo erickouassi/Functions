@@ -1,4 +1,11 @@
 
+
+Relative & Absolute Cell References
+| $A1 | Allows the row reference to change, but not the column reference.|
+
+
+
+
 * Spreadsheet simple email
 ```
 MailApp.sendEmail("64655236XX@tmomail.net", "test mail", "hello from erickouassi.com");
