@@ -4,7 +4,8 @@ Relative & Absolute Cell References
 |  |  |
 | ------ | ------ |
 | $A1 | Allows the row reference to change, but not the column reference.|
-
+| A$1 | Allows the column reference to change, but not the row reference.|
+| $A$1 | Allows neither the column nor the row reference to change|
 
 
 
