@@ -133,7 +133,10 @@ google.spreadsheeet.link/gviz/tq?tqx=out:html&tq=select+*+LIMIT+1+OFFSET+7&gid=0
 * Create a mail merge using Gmail and Google Sheets
 https://github.com/gsuitedevs/solutions/tree/master/mail-merge
 
-* Find and highlith duplicate
-``` =COUNTIF(A:A,A1)>1    // in the column A only
-    =COUNTIF($A:$BX,A1)>1  // in columns/rows from A to BX
-  ```
+
+ * Find and highlith duplicate
+|  |  |
+| ------ | ------ |
+| =COUNTIF(A:A,A1)>1 | in the column A only|
+| =COUNTIF($A:$BX,A1)>1| in columns/rows from A to BX|
+
