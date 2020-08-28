@@ -20,3 +20,19 @@ global $user_ID; if($user_ID) {
  }
 }
 ```
+
+#Change any WordPress Text on your entire site   <br />
+Credit link [here](https://www.wpfixit.com/change-any-wordpress-text-on-entire-site/) <br/>
+
+```
+/* Change Text Site Wide */
+
+function wpfi_change_text1( $translated_text ) {
+	if ( $translated_text == '  SVP' ) {
+		$translated_text = 'Deja abonné';
+	}
+	return $translated_text;
+}
+add_filter( 'gettext', 'wpfi_change_text1', 20 );
+
+```
