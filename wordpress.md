@@ -21,7 +21,7 @@ global $user_ID; if($user_ID) {
 }
 ```
 
-#Change any WordPress Text on your entire site   <br />
+# Change any WordPress Text on your entire site   <br />
 Credit link [here](https://www.wpfixit.com/change-any-wordpress-text-on-entire-site/) <br/>
 
 ```
