@@ -125,7 +125,7 @@ var subject = Your score is " + score
 =if(isblank($A1), "BLANK", image("https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl="&$A1))
 ```
 
-* Select 1 raw for view ([0-n], raw 7 is selected)
+* Select 1 row for view ([0-n], row 7 is selected)
 ```
 google.spreadsheeet.link/gviz/tq?tqx=out:html&tq=select+*+LIMIT+1+OFFSET+7&gid=0
 
