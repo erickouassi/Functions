@@ -140,3 +140,8 @@ https://github.com/gsuitedevs/solutions/tree/master/mail-merge
 | =COUNTIF(A:A,A1)>1 | in the column A only|
 | =COUNTIF($A:$BX,A1)>1| in columns/rows from A to BX|
 
+
+```
+=GOOGLEFINANCE(A5,"volume")
+=SORT(FILTER(A4:B,B4:B),2,false,1,false)
+```
