@@ -149,3 +149,7 @@ https://github.com/gsuitedevs/solutions/tree/master/mail-merge
 Sum all values in all rows using array formula
 =arrayformula(mmult(D3:O*1, transpose(D3:O3 ^ 0)))
 ```
+```
+Count number in rows
+=ArrayFormula(if(B3:B<>"",row(A3:A)-2,""))
+```
