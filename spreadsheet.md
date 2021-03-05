@@ -145,3 +145,7 @@ https://github.com/gsuitedevs/solutions/tree/master/mail-merge
 =GOOGLEFINANCE(A5,"volume")
 =SORT(FILTER(A4:B,B4:B),2,false,1,false)
 ```
+```
+Sum all values in all rows using array formula
+=arrayformula(mmult(D3:O*1, transpose(D3:O3 ^ 0)))
+```
