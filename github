@@ -1,0 +1,8 @@
+# Once a repo is cloned, you'll be working inside of the default branch (the default is `master`)
+git clone https://github.com/<git-user>/<repo-name> && cd <repo-name>
+# make changes and stage your files (repeat the `git add` command for each file, or use `git add .` to stage all)
+git add <filename>
+# now commit your code
+git commit -m "added some changes to my repo!"
+# push changes in `master` branch to github
+git push origin master
