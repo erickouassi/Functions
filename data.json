@@ -1,6 +1,8 @@
 {
   "licenses": [
     { "key": "CUSTOMER_KEY_12345", "expiry": "2026-01-31" },
+    { "key": "ERIC_KOUA_12345", "expiry": "2026-01-31" },
     { "key": "ABC123", "expiry": "2025-12-31" }
   ]
 }
+
